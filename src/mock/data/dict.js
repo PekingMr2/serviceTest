@@ -1,0 +1,206 @@
+const DICTS = [{
+    name: '订单状态',
+    value: 'orderStatus',
+    items: [{
+        name: '待派单',
+        value: '1',
+    }, {
+        name: '待服务',
+        value: '2',
+    }, {
+        name: '服务中',
+        value: '3',
+    }, {
+        name: '退款中',
+        value: '4',
+    }, {
+        name: '已完成',
+        value: '5',
+    }, {
+        name: '已取消',
+        value: '6',
+    }],
+}, {
+    name: '收款状态',
+    value: 'payStatus',
+    items: [{
+        name: '未收款',
+        value: '1',
+    },{
+        name: '已收款',
+        value: '2',
+    }],
+}, {
+    name: '文化程度',
+    value: 'education',
+    items: [{
+        name: '小学',
+        value: '1',
+    }, {
+        name: '初中',
+        value: '2',
+    }, {
+        name: '高中',
+        value: '3',
+    }, {
+        name: '大专',
+        value: '4',
+    }, {
+        name: '本科',
+        value: '5',
+    }],
+}, {
+    name: '性别',
+    value: 'sex',
+    items: [{
+        name: '男',
+        value: '1',
+    }, {
+        name: '女',
+        value: '2',
+    }],
+}, {
+    name: '工作年限',
+    value: 'serviceYears',
+    items: [{
+        name: '3年以下',
+        value: '1',
+    }, {
+        name: '3~5年',
+        value: '2',
+    }, {
+        name: '5~10年',
+        value: '3',
+    }, {
+        name: '10年以上',
+        value: '4',
+    }],
+}, {
+    name: '开户行',
+    value: 'bank',
+    items: [{
+        name: '中国建设银行',
+        value: '1',
+    }, {
+        name: '中国工商银行',
+        value: '2',
+    }, {
+        name: '中国银行',
+        value: '3',
+    }],
+}, {
+    name: '装备',
+    value: 'equipment',
+    items: [{
+        name: '工服',
+        value: '1',
+    }, {
+        name: '工鞋',
+        value: '2',
+    }, {
+        name: '头花',
+        value: '3',
+    }, {
+        name: '工牌',
+        value: '4',
+    }, {
+        name: '上岗证',
+        value: '5',
+    }, {
+        name: '工作手册',
+        value: '6',
+    }],
+}, {
+    name: '服务类型',
+    value: 'serviceType',
+    items: [{
+        name: '一对一',
+        value: '1',
+    }, {
+        name: '二对一',
+        value: '2',
+    }, {
+        name: '一对多',
+        value: '3',
+    }, {
+        name: '多对多',
+        value: '4',
+    }],
+}, {
+    name: '病情级别',
+    value: 'diseaseGrade',
+    items: [{
+        name: 'A',
+        value: '1',
+    }, {
+        name: 'B',
+        value: '2',
+    }, {
+        name: 'C',
+        value: '3',
+    }, {
+        name: 'T',
+        value: '4',
+    }],
+}, {
+    name: '资金流向',
+    value: 'fundFlow',
+    items: [{
+        name: '收入',
+        value: '1',
+    }, {
+        name: '支出',
+        value: '2',
+    }],
+}, {
+    name: '资金类型',
+    value: 'fundType',
+    items: [{
+        name: '现金',
+        value: '1',
+    }, {
+        name: 'POS机',
+        value: '2',
+    }, {
+        name: '银行转账',
+        value: '3',
+    }],
+}, {
+    name: '资金操作类型',
+    value: 'fundOperationType',
+    items: [{
+        name: '内勤收款',
+        value: '1',
+    }, {
+        name: '内勤退款',
+        value: '2',
+    }],
+}, {
+    name: '账号状态',
+    value: 'accountStatus',
+    items: [{
+        name: '开通',
+        value: '1',
+    }, {
+        name: '关闭',
+        value: '2',
+    }],
+}, {
+    name: '工作状态',
+    value: 'workStatus',
+    items: [{
+        name: '在职工作',
+        value: '1',
+    }, {
+        name: '在职待岗',
+        value: '2',
+    }, {
+        name: '休假中',
+        value: '3',
+    }, {
+        name: '已离职',
+        value: '4',
+    }],
+}]
+
+export { DICTS };
